@@ -3,6 +3,21 @@ body {
     /* Light 300 Italic, Regular 400, Black 900 */
 }
 
+a:link {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #9c9ea1;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
 .header,
 .section-one,
 .footer {
@@ -12,4 +27,16 @@ body {
 .header,
 .section-one {
     color: #F9FAF8;
+}
+
+.header-logo-text {
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.header-links,
+.hero-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #E5E7EB;
 }
