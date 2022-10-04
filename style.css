@@ -1,9 +1,15 @@
 body {
-
+    font-family: 'Roboto', sans-serif;
+    /* Light 300 Italic, Regular 400, Black 900 */
 }
 
 .header,
 .section-one,
 .footer {
     background-color: #1F2937;
+}
+
+.header,
+.section-one {
+    color: #F9FAF8;
 }
