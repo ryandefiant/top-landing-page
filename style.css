@@ -20,6 +20,7 @@ a:hover {
     color: #F9FAF8;
 }
 
+/* HEADER/MISC */
 .header,
 .section-one,
 .footer {
@@ -60,6 +61,7 @@ a:hover {
     gap: 1em;
 }
 
+/* SECTION ONE */
 .section-one {
     display: flex;
     justify-content: space-between;
@@ -98,6 +100,7 @@ a:hover {
     border-style: none;
 }
 
+/* SECTION TWO */
 .section-two {
     display: flex;
     flex-direction: column;
@@ -111,23 +114,8 @@ a:hover {
     padding: 30px 0;
 }
 
-.card-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-grow: 0;
-}
-
-.card {
-    display: flex;
+.information-image {
     border: 2px solid #3882F6;
-    border-radius: 10%;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
 }
-
-.information-text {
-    text-align: center;
-    padding-top: 5px;
-}
-
