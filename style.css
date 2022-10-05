@@ -118,12 +118,12 @@ a:hover {
 .information-image {
     border: 2px solid #3882F6;
     border-radius: 6px;
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     margin: 0;
 }
 
 .information-text {
-    width: 120px;
+    width: 150px;
     text-align: center;
 }
